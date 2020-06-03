@@ -2,13 +2,11 @@
   "gitlens.advanced.messages": {
     "suppressShowKeyBindingsNotice": true
   },
-  "workbench.iconTheme": "vscode-icons",
   "workbench.colorTheme": "Oceanic Next",
   "editor.fontSize": 18,
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "files.autoSave": "off",
   "editor.renderWhitespace": "all",
-  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
   "team.showWelcomeMessage": false,
   "git.autofetch": true,
   "window.zoomLevel": 0,
@@ -26,6 +24,12 @@
   "workbench.sideBar.location": "left",
   "workbench.activityBar.visible": true,
   "workbench.statusBar.visible": true,
-  "window.menuBarVisibility": "toggle"
+  "window.menuBarVisibility": "toggle",
+  "workbench.iconTheme": "vscode-icons",
+  "explorer.confirmDelete": false,
+  "terminal.integrated.fontSize": 16,
+  "extensions.autoUpdate": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
-
